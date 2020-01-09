@@ -1,11 +1,10 @@
-# This is notebook
-## Edited by: COMPLETE YOUR NAME HERE
-
------
-
-## This is an image: Move it to the top.
-
+---
+bibliography: Test_Collection.bib
+---
 ![](Evans_Logo.png)
+# This is notebook
+## Edited by: Evan Lih
+
 
 
 This is how you write in italics: *this way* or _this way_.
@@ -18,8 +17,10 @@ If you need bullets:
 
 This is where you add a small piece of R code:
 
+
 ```{r}
 1+10
+library(citr)
 ```
 
 You will write several of those pieces later.
@@ -27,3 +28,5 @@ You will write several of those pieces later.
 Finally, you can add a citation using **citr** after the word "work":
 
 All this work will be based on previous work.
+
+# References
