@@ -1,32 +1,32 @@
 ---
-bibliography: Test_Collection.bib
+title: "Test"
+output: html_document
+bibliography: bib.bib
+author: "Evan Lih"
 ---
 ![](Evans_Logo.png)
-# This is notebook
-## Edited by: Evan Lih
 
+-----
 
+## This is an image: Move it to the top.
 
-This is how you write in italics: *this way* or _this way_.
-This is how you write in bold: **this way** or __this way__.
-
-If you need bullets:
-
-* One bullet
-* another one.
 
 This is where you add a small piece of R code:
 
-
 ```{r}
 1+10
-library(citr)
 ```
 
 You will write several of those pieces later.
 
-Finally, you can add a citation using **citr** after the word "work":
+Finally, you can add a citation using **citr** after the word "work":[@noauthor_visual_nodate; @shrum_managing_2018]
 
-All this work will be based on previous work.
+All this work will be based on previous work:citr
 
-#References
+
+---
+nocite: '@*'
+---
+
+# references
+
