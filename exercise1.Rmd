@@ -29,4 +29,4 @@ Finally, you can add a citation using **citr** after the word "work":
 
 All this work will be based on previous work.
 
-# References
+#References
